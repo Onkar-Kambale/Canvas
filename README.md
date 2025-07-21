@@ -17,7 +17,7 @@ This is a fully functional **Drawing App** built using **HTML**, **CSS**, and **
 
 ## 🌐 Live Demo
 
-
+https://onkar-kambale.github.io/Canvas/
 
 ---
 
@@ -45,3 +45,8 @@ This is a fully functional **Drawing App** built using **HTML**, **CSS**, and **
    - 🧹 **Clear** to reset the canvas
    - 💾 **Save** to download your drawing as PNG
 
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
