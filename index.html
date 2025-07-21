@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Advanced Canvas Drawing App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🖌️ Advanced Canvas Drawing App</h1>
+
+    <div class="tools">
+      <label for="colorPicker">Color:</label>
+      <input type="color" id="colorPicker" />
+
+      <label for="brushSize">Brush Size:</label>
+      <input type="range" id="brushSize" min="1" max="100" value="10" />
+      <span id="brushSizeValue">10%</span>
+
+      <select id="brushType">
+        <option value="pen">🖊️ Pen</option>
+        <option value="highlighter">🖍️ Highlighter</option>
+        <option value="eraser">🧽 Eraser</option>
+      </select>
+
+      <button id="clearBtn">🧹 Clear</button>
+      <button id="saveBtn">💾 Save</button>
+    </div>
+
+    <canvas id="drawingCanvas" width="800" height="500"></canvas>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
